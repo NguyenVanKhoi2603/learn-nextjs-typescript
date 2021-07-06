@@ -1,0 +1,27 @@
+.box_card {
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 5px rgb(61, 61, 61); 
+    /* box-shadow: 0 5px 0 rgba(255, 0, 0, 1), 0 10px 0 rgba(0, 255, 0, 1); */
+
+}
+
+.box_card:hover {
+    box-shadow: 1px 1px 30px 10px rgb(61, 61, 61); 
+}
+
+/* .box_card::before {
+    background: linear-gradient(235deg, #02b6ff, #111, #e72fee);
+} */
+
+.background_card {
+    background: #222;
+    color: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
