@@ -1,0 +1,15 @@
+.MUIButton {
+    border: none;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.MUIButton:hover {
+    background-color: black;
+}
+
+.MUIButton:active {
+    outline: blue auto 50px; 
+}
